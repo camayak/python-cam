@@ -96,7 +96,7 @@ response = cam.users.read('b7a28f1c-2a09-4c7e-9238-f7e28faf83e3')
 }
 ```
 
-### Organizations
+### Organizations
 
 #### List organizations
 
@@ -331,7 +331,7 @@ response = cam.requests.create({
 }
 ```
 
-### Contributors
+### Contributors
 
 #### List contributors
 
@@ -418,7 +418,7 @@ response = cam.contributors.read('6c7faa16-3942-40b8-9af8-e88aaca2984f')
 }
 ```
 
-### Assets
+### Assets
 
 #### List assets
 
