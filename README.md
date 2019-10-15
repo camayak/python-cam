@@ -1,4 +1,4 @@
-## python-cam
+## python-cam
 
 A Python wrapper for the Cam API.
 
