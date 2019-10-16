@@ -449,14 +449,13 @@ response = cam.assets.list({'request': '81a1de6e-4df0-4e95-9a22-fb9fc9a518d7'})
         'is_trash': False, 
         'title': 'A rugby tackle', 
         'credit': 'Peter Evans', 
-        'status': 'success', 
         'filename': 'tackle.png', 
         'mime_type': 'image/png', 
         'description': 'A photo of a rugby player being tackled at the World Cup', 
-        'source': '1e9e6d2d-582e-47df-a181-4906040b7da6/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/cc7d5956-930a-415b-8c89-e0fbdc667b33.png', 
+        'source': 'https://cam-main.s3.amazonaws.com/1e9e6d2d-582e-47df-a181-4906040b7da6/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/cc7d5956-930a-415b-8c89-e0fbdc667b33.png?AWSAccessKeyId=AKIAJ742P25Y37DVZMZA&Signature=KU2YbSzW4eCHILUMjg1mMaAYjzs%3D&Expires=1571304116', 
         'thumbnails': {
-            'mid': '1e9e6d2d-582e-47df-a181-4906040b7da6/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/cc7d5956-930a-415b-8c89-e0fbdc667b33-mid.png', 
-            'grid': '1e9e6d2d-582e-47df-a181-4906040b7da6/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/cc7d5956-930a-415b-8c89-e0fbdc667b33-grid.png'
+            'mid': 'https://cam-main.s3.amazonaws.com/1e9e6d2d-582e-47df-a181-4906040b7da6/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/cc7d5956-930a-415b-8c89-e0fbdc667b33-mid.png?AWSAccessKeyId=AKIAJ742P25Y37DVZMZA&Signature=KU2YbSzW4eCHILUMjg1mMaAYjzs%3D&Expires=1571304116', 
+            'grid': 'https://cam-main.s3.amazonaws.com/1e9e6d2d-582e-47df-a181-4906040b7da6/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/cc7d5956-930a-415b-8c89-e0fbdc667b33-grid.png?AWSAccessKeyId=AKIAJ742P25Y37DVZMZA&Signature=KU2YbSzW4eCHILUMjg1mMaAYjzs%3D&Expires=1571304116'
         }, 
         'request': '/v1/requests/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/', 
         'resource_uri': '/v1/assets/cc7d5956-930a-415b-8c89-e0fbdc667b33/'
@@ -482,15 +481,14 @@ response = cam.assets.read('cc7d5956-930a-415b-8c89-e0fbdc667b33')
     'modified_by': '/v1/users/1e9e6d2d-582e-47df-a181-4906040b7da6/', 
     'is_trash': False, 
     'title': 'A rugby tackle', 
-    'credit': 'Peter Evans', 
-    'status': 'success', 
+    'credit': 'Peter Evans',
     'filename': 'tackle.png', 
     'mime_type': 'image/png', 
     'description': 'A photo of a rugby player being tackled at the World Cup', 
-    'source': '1e9e6d2d-582e-47df-a181-4906040b7da6/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/cc7d5956-930a-415b-8c89-e0fbdc667b33.png', 
+    'source': 'https://cam-main.s3.amazonaws.com/1e9e6d2d-582e-47df-a181-4906040b7da6/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/cc7d5956-930a-415b-8c89-e0fbdc667b33.png?AWSAccessKeyId=AKIAJ742P25Y37DVZMZA&Signature=KU2YbSzW4eCHILUMjg1mMaAYjzs%3D&Expires=1571304116', 
     'thumbnails': {
-        'mid': '1e9e6d2d-582e-47df-a181-4906040b7da6/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/cc7d5956-930a-415b-8c89-e0fbdc667b33-mid.png', 
-        'grid': '1e9e6d2d-582e-47df-a181-4906040b7da6/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/cc7d5956-930a-415b-8c89-e0fbdc667b33-grid.png'
+        'mid': 'https://cam-main.s3.amazonaws.com/1e9e6d2d-582e-47df-a181-4906040b7da6/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/cc7d5956-930a-415b-8c89-e0fbdc667b33-mid.png?AWSAccessKeyId=AKIAJ742P25Y37DVZMZA&Signature=KU2YbSzW4eCHILUMjg1mMaAYjzs%3D&Expires=1571304116', 
+        'grid': 'https://cam-main.s3.amazonaws.com/1e9e6d2d-582e-47df-a181-4906040b7da6/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/cc7d5956-930a-415b-8c89-e0fbdc667b33-grid.png?AWSAccessKeyId=AKIAJ742P25Y37DVZMZA&Signature=KU2YbSzW4eCHILUMjg1mMaAYjzs%3D&Expires=1571304116'
     }, 
     'request': '/v1/requests/81a1de6e-4df0-4e95-9a22-fb9fc9a518d7/', 
     'resource_uri': '/v1/assets/cc7d5956-930a-415b-8c89-e0fbdc667b33/'
