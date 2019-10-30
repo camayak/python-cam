@@ -1,7 +1,7 @@
 import cam
 import json
 import requests
-from .exceptions import InvalidAPIKeyException
+from .exceptions import InvalidAPIKeyException, BadRequestException
 
 
 class Endpoint:
@@ -20,8 +20,10 @@ class Endpoint:
         headers = {'X-CAM-APIKEY': cam.api_key}
         response = getattr(requests, method.lower())(url, params=params, data=data,
                                                      headers=headers, verify=cam.verify_ssl_certs)
-        if response.ok or response.status_code == 400:
+        if response.ok:
             return response.json()
+        elif response.status_code == 400:
+            raise BadRequestException(response.json())
         elif response.status_code == 401:
             raise InvalidAPIKeyException()
         response.raise_for_status()
